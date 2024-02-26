@@ -23,7 +23,10 @@ class _HomePageState extends State<HomePage> {
               ),
             );
           },
-          child: const Text('Open Camera'),
+          child: const Text(
+            'Open Camera',
+            style: TextStyle(color: Colors.blueAccent),
+          ),
         ),
       ),
     );
